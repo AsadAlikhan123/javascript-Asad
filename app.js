@@ -1,25 +1,38 @@
-let num1=+prompt("Enter Your Number");
-let num2=+prompt("Enter Your Number");
-
-let sum = num1+num2;
-let mun = num1-num2;
-let multi = num1*num2;
-let divid = num1/num2;
-let modul = num1%num2;
-
-document.write(num1," sum of ", num2,  " and totla value ",sum ,"<br>");
-
-document.write(num1," mul of ", num2,  " and totla value ",mun ,"<br>");
-
-document.write(num1," Multiplay of ", num2,  " and totla value ",multi,"<br>");
-
-document.write(num1," devided of ", num2,  " and totla value ",divid,"<br>");
-
-document.write(num1," modul of ", num2,  " and totla value ",modul,"<br>");
+let a = 2;
+let b = "2";
+if(a == b){
+    console.log("y baraber hai");
+}
+else{
+    console.log("y baraber nahi  hai");
+}
 
 
-let usertablenumber = +prompt ("Enter Your table Number")
+let n = 2;
+let o = "2";
+if(a === b){
+    console.log("y baraber hai");
+}
+else{
+    console.log("y baraber nahi  hai");
+}
 
-document.write(usertablenumber,"=", usertablenumber*1)
-document.write(usertablenumber,"=", usertablenumber*1)
-document.write(usertablenumber,"=", usertablenumber*1)
+let usercity = prompt("Enter City Name");
+let mycity = "karachi";
+if(usercity === mycity){
+    console.log("“Welcome to city of lights”")
+}
+else{
+    console.log("“Welcome to another city”")
+}
+
+
+
+let gender = prompt("Enter your Gender");
+let gender1 = "male";
+if(gender === gender1){
+    console.log("Good Morning Sir.")
+}
+else{
+    console.log("Good Morning Ma’am.")
+}
